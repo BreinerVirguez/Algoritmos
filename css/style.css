@@ -1,0 +1,40 @@
+/*agregar tipografia*/
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/bg-a.jpg");
+    background-size:cover ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 90%;
+    max-width: 1350px;
+    margin: 8%;
+    border: 1px solid rgb(14, 17, 180);
+    background: #0000005d;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+}
+h1{
+    color: aliceblue;
+    font-size: 22px;
+}
+p{
+    color: rgb(253, 253, 255);
+    font-size: 22px;
+}
+button{
+    background: transparent;
+    border: 2px solid rgb(14, 17, 180);
+    margin: 10px;
+    color: rgb(250, 253, 255) ;
+}
+button :hover{
+    background: #0000005d;
+    color: #00f9ff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
